@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>Adapter_log</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Adapter_log</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <jdk.version>11</jdk.version>
+    <spring.version>5.3.12</spring.version>
+    <junit.version>5.8.2</junit.version> <!-- Updated to JUnit 5 -->
+    <log4j.version>1.2.17</log4j.version> <!-- Still valid, but consider upgrading to log4j 2.x -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <distributionManagement>
+
+    <repository>
+         <id>nexus</id>
+         <name>IRCT_Reg Releases Nexus Repository</name>
+         <url>http://3.109.132.240:8088/repository/Adaptper/</url>
+    </repository>
+
+  </distributionManagement>
+</project>
