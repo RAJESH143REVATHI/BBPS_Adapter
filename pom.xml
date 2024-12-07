@@ -14,7 +14,7 @@
     <spring.version>5.3.12</spring.version>
     <junit.version>5.8.2</junit.version> <!-- Updated to JUnit 5 -->
     <log4j.version>1.2.17</log4j.version> <!-- Still valid, but consider upgrading to log4j 2.x -->
-    <sonar.host.url>http://13.201.125.51:9000/</sonar.host.url>
+    <sonar.host.url>http://13.232.225.106:9000/</sonar.host.url>
     <sonar.login>admin</sonar.login>
     <sonar.password>sonar</sonar.password>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,7 +34,7 @@
     <repository>
          <id>nexus</id>
          <name>Notification_adapter Nexus Repository</name>
-         <url>http://3.111.214.134:8088/repository/project_1/</url>
+         <url>http://43.205.139.144:8088/repository/project_1/</url>
     </repository>
 
   </distributionManagement>
